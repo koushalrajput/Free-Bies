@@ -1,0 +1,1153 @@
+body {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+.header{
+  width:100%;
+  background-color:white;
+}
+/* .container{
+  width:1170px;
+  margin:0 auto;
+} */
+.navs{
+  position:fixed;
+  z-index: 111;
+  left:0;
+
+}
+ .slider {
+    position: relative;
+    margin-bottom: 279px;
+    background: linear-gradient(45deg, #b84f0b,#263ebf);
+    clip-path: circle(79.0% at 51% 10%);
+}
+.main-slider{
+  position: absolute;
+  top:192px;
+  left: 127px;
+  z-index: 1;
+}
+.slider-wapper{
+  text-align: center;
+  color: white;
+}
+.slider-wapper h6{
+  padding: 8px 237px;
+}
+.slider-wapper h1{
+  font-weight: 900;
+  font-size:43px;
+}
+.navbar-light .navbar-nav .nav-link {
+  /* color: rgba(0,0,0,.5); */
+  color: white;
+}
+.btn{
+  border-radius:550px;
+}
+button.btn {
+  color: black;
+  font-size: 20px;
+  font-family: 900;
+}
+.card-wrapper {
+  margin-top: 277px;
+  text-align: center;
+  margin-left: -99px;
+}
+.btn-wrapper button {
+  background: linear-gradient(45deg , #b84f0b,#263ebf );
+  position: absolute;
+  top: 371px;
+  left: 110px;
+}
+.btn-wrapper button {
+  color: white;
+}
+.wrapper button {
+  background: linear-gradient(45deg , #b84f0b,#263ebf );
+  margin-top: 24px;
+}
+.creative-img img {
+  width: 100%;
+  margin-left: -48px;
+}
+.creative-text img {
+  position: relative;
+  width: 16%;
+  left: -65px;
+}
+.creative-text h6 {
+   margin-top: -28px;
+}
+.wrapper button {
+  color: white;
+}
+.amazing-button button {
+  color: white;
+}
+.serivces-button button {
+  color: white;
+}
+.card {
+  border: none;
+}
+.creative-text h1{
+  font-weight: 900;
+}
+.creative-text h1 {
+  padding-top: 26px;
+  padding-left: 12px;
+}
+.amazing-wrapper img {
+  width: 100%;
+ 
+}
+.amazing{
+  position: relative;
+  padding-bottom: 42px;
+}
+.amazing-wrapper img{
+  border-radius: 10px;
+ 
+}
+.amazing-main {
+  position: absolute;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 7px;
+  left: 397px;
+  top: 290px;
+  text-align: center;
+  color: #0f0c0c;;
+  
+}
+.amazing-main h1{
+  text-align: center;
+  color: black;
+}
+.amazing-main p{
+  padding: 0px 10px;
+}
+.amazing-button{
+  width: 100%;
+}
+.amazing-button button {
+  background: linear-gradient(45deg , #b84f0b,#263ebf );
+  text-align: center;
+}
+.amazing-main p {
+  padding: 14px 10px;
+}
+.serivces{
+  background-color: #f4f4f4;
+  position: relative;
+}
+.serivces-button button {
+  background: linear-gradient(45deg , #b84f0b,#263ebf );
+
+}
+.serivces-wrapper {
+  padding-top: 65px;
+  padding-bottom: 28px;
+}
+.serivces::before{
+  position: absolute;
+  content:"";
+  background-image: url(../image/books.png);
+  top: 0;
+  height: 492px;
+  left: 773px;
+  width: 576px;
+}
+.serivces-icans {
+  color: white;
+  position:absolute;
+   background: linear-gradient(45deg , #b84f0b,#263ebf );
+  top: 42px;
+  left: 546px;
+  padding-top: 22px;
+  border-radius: 7px;
+}
+.icans-main ul{
+  text-decoration: none;
+  list-style:none;
+}
+.icans-main ul li i{
+  font-size: 30px;
+  color: white;
+}
+.team-text h1{
+  text-align: center;
+  padding: 15px 368px;
+}
+.team-wrapper{
+  padding: 10px 10px;
+}
+.team-wrapper img{
+  width: 100%;
+  padding: 14px 0px;
+  border-radius: 19px;
+
+}
+.team-text{
+  position: relative;
+}
+.team-text:after{
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color:#f4f4f4 ;
+  top: 353px;  
+}
+.touch{
+  
+  padding-bottom: 70px;
+  margin-bottom: 30px;
+  position: relative;
+}
+.touch img{
+  width: 100%;
+  background: linear-gradient(45deg , #b84f0b,#263ebf );
+  height: 388px;
+}
+
+.touch-text{
+  position: absolute;
+  top: 126px;
+  left: 272px;
+}
+.touch-text i {
+  font-size: 30px;
+  border: 1px solid white;
+  border-radius: 222px;
+  margin-right: 98px;
+  padding: 8px 8px;
+  margin-top: 44px;
+  color: white;
+}
+.touch-text i:hover{
+  color:black;
+  background-color: white;
+}
+.footer-text p i{
+  font-size: 40px;
+  color: #fc9e20;
+}
+.mail-text{
+  padding-left: 22px;
+}
+.mail-text h4{
+  font-size:18px;
+}
+.mail-text h5{
+  font-size: 15px;
+}
+.bio-img img{
+  width: 100%;
+  height: 550px;
+}
+.bio-text{
+  text-align: center;
+  padding-top: 62px;
+}
+.bio-icans i{
+  font-size: 30px;
+  background-color: white;
+  border-radius: 222px;
+  margin-right: 33px;
+  padding: 8px 8px;
+  margin-top: 352px;
+  color: black;
+}
+.bio-img {
+  margin-top: 39px;
+}
+.bio{
+  position: relative;
+  padding-top: 126px;
+  padding-bottom: 233px;
+}
+.bio::before{
+  position: absolute;
+  content: "";
+  width: 55%;
+  height: 58%;
+  background: linear-gradient(45deg , #b84f0b,#263ebf );
+  left: 600px;
+  top: 166px;
+}
+.professional{
+  position: relative;
+  }
+.prooo-img ul li{
+  list-style: none;
+}
+.professional:after{
+  position:absolute;
+  content: "";
+  width: 548px;
+  height:611px;
+  background: linear-gradient(45deg , #b84f0b,#263ebf );
+  top: -114px;
+  z-index: -1;
+}
+.card-title {
+  text-align: center;
+}
+.card-text {
+  text-align: center;
+}
+.btn-wrapper button {
+  text-align:center;
+}
+.professional::before{
+  position: absolute;
+  content:"";
+  background-color:#f4f4f4 ;
+  width:58%;
+  height: 611px;
+  top: -114px;
+  left: 567px;
+  z-index: -1;
+}
+.prooo-text{
+  z-index: 1;
+  color: black;
+  background-color: white;
+  text-align: center;
+  padding: 15px 0px;
+}
+.prooo-img{
+  background: linear-gradient(45deg , #b84f0b,#263ebf );
+  text-align: center;
+  position: relative;
+  left: -14px;
+  padding: 22px 0px;
+}
+.creaitve{
+  padding-top: 30px;
+}
+@media (min-width:320px) and (max-width:576px){
+  .fixed-top{
+    position: static;
+    background-color: black;
+  }
+  .navbar-light .navbar-toggler {
+    background-color: white;
+}
+.slider{
+  clip-path: none;
+}
+.top-slider {
+  padding-bottom: 1015px;
+}
+.main-slider {
+ top: 62px;
+ left:0px;
+}
+.slider-wapper{
+  text-align: left;
+}
+.slider-wapper h1 {
+   font-size: 38px;
+   text-align: center;
+}
+.slider-wapper h5{
+  padding-left: 50px;
+}
+.slider-wapper h6 {
+   padding: 0px 0px; 
+   text-align: center;
+}
+.main-slider button {
+  color: black;
+  font-size: 12px;
+  margin-left: 106px;
+  margin-top: 0px;
+}
+.card-wrapper{
+  margin-top: 10px;
+  text-align: left;
+  margin-left: 0px;
+}
+.card {
+  padding-bottom: 30px;
+}
+.card img {
+  width: 100%;
+}
+.btn-wrapper button {
+  text-align: center;
+  left: -13px;
+}
+.wrapper {
+  text-align: center;
+  padding-bottom: 34px;
+}
+.creative-img img {
+ margin-left:0px; 
+}
+.creative-text h1 {
+  padding-left: 0px; 
+  text-align: center;
+}
+.amazing-main {
+  position:static;
+  border: none;
+}
+.amazing{
+  padding-bottom: 0px;
+}
+.serivces-wrapper{
+  padding-top: 0px;
+  text-align: center;
+}
+.serivces-button {
+  text-align: center;
+}
+.serivces-icans{
+  position:static;
+}
+.serivces::before {
+  position: absolute;
+  content: "";
+  background-image: url(../image/books.png);
+  top: 432px;
+  height: 441px;
+  left: 0px;
+  width: 100%;
+}
+.team-text {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+.team-text h1{
+  padding: 0px 0px;
+  font-size:25px ;
+}
+.team-text:after {
+  position:static;
+}
+.bio{
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.bio::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 38%;
+  background: linear-gradient(45deg , #b84f0b,#263ebf );
+    top:968px;
+  left: 0px;
+}
+.professional {
+  position: relative;
+  padding-top: 38px;
+}
+.professional:after {
+  width:100%;
+  height: 877px;
+
+}
+.prooo-img{
+  left: 0px;
+}
+.professional::before{
+  width: 100%;
+  left: 0px;
+  top: 438px;
+}
+.touch-text i{
+  margin-right: 0px;
+
+}
+.touch-text{
+  left: 0px;
+}
+}
+@media (min-width:576px) and (max-width:768px) {
+  .fixed-top{
+    position: static;
+    background-color: black;
+  }
+  .navbar-light .navbar-toggler {
+    background-color: white;
+}
+.slider{
+  clip-path: none;
+}
+.top-slider {
+  padding-bottom: 1015px;
+}
+.main-slider {
+ top: 62px;
+ left:0px;
+}
+.slider-wapper{
+  text-align: left;
+}
+.slider-wapper h1 {
+   font-size: 38px;
+   text-align: center;
+}
+.slider-wapper h5{
+  text-align: center;
+}
+.slider-wapper h6 {
+   padding: 0px 0px; 
+   text-align: center;
+}
+.main-slider button {
+  color: black;
+  font-size: 12px;
+  margin-left: 241px;
+  margin-top: 84px;
+}
+.card-wrapper{
+  margin-top: 100px;
+  text-align: left;
+  margin-left: 0px;
+}
+.card {
+  padding-bottom: 30px;
+}
+.card img {
+  width: 100%;
+}
+.btn-wrapper button {
+  text-align: center;
+  left: -13px;
+}
+.wrapper {
+  text-align: center;
+  padding-bottom: 34px;
+}
+.creaitve {
+  padding-top: 217px;
+}
+.creative-wrapper {
+  text-align: center;
+}
+.creative-img img {
+ margin-left:0px; 
+}
+.creative-text h1 {
+  padding-left: 0px; 
+  text-align: center;
+  padding-top: 0px;
+}
+.creative-text {
+  padding-top: 28px;
+}
+.creative-text img{
+  width: 6%;
+  left: -33px;
+}
+.amazing-main {
+  position:static;
+  border: none;
+}
+.amazing{
+  padding-bottom: 0px;
+}
+.serivces-wrapper{
+  padding-top: 0px;
+  text-align: center;
+}
+.serivces-button {
+  text-align: center;
+}
+.serivces-icans{
+  top:463px;
+  left:132px;
+  width: 279px;
+
+}
+.serivces::before {
+  position: absolute;
+  content: "";
+  background-image: url(../image/books.png);
+  top: 432px;
+  height: 441px;
+  left: 0px;
+  width: 100%;
+}
+.team-text {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  padding-top: 438px;
+}
+.team-wrapper img {
+  width: 100%;
+  padding: 44px 0px;
+  border-radius: 19px;
+}
+.team-text h1{
+  padding: 0px 0px;
+  font-size:25px ;
+}
+.team-text:after {
+  position:static;
+}
+.bio-wrapper {
+  text-align: center;
+}
+.bio-text{
+  padding-top: 125px;
+}
+.bio{
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.bio::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 38%;
+  background: linear-gradient(45deg , #b84f0b,#263ebf );
+    top:968px;
+  left: 0px;
+}
+.level {
+  text-align: center;
+}
+.professional {
+  position: relative;
+  padding-top: 38px;
+}
+.professional:after {
+  width:100%;
+  height: 877px;
+
+}
+.prooo-img{
+  left: 0px;
+}
+.professional::before{
+  width: 100%;
+  left: 0px;
+  top: 438px;
+}
+.touch-text i{
+  margin-right: 0px;
+
+}
+.touch-text{
+  left: 128px;
+}
+}
+@media (min-width:768px) and (max-width:991px) {
+  .fixed-top{
+    position: static;
+    background-color: black;
+  }
+  .navbar-light .navbar-toggler {
+    background-color: white;
+}
+.slider{
+  clip-path: none;
+}
+.top-slider {
+  padding-bottom: 1015px;
+}
+.main-slider {
+ top: 62px;
+ left:0px;
+}
+.slider-wapper{
+  text-align: left;
+  padding-top: 108px;
+  padding-bottom: 38px;
+}
+.slider-wapper h1 {
+   font-size: 38px;
+   text-align: center;
+}
+.slider-wapper h5{
+  padding-left: 50px;
+}
+.slider-wapper h6 {
+   padding: 0px 0px; 
+   text-align: center;
+}
+.main-slider button {
+  color: black;
+  font-size: 12px;
+  margin-left: 106px;
+  margin-top: 0px;
+}
+.card-wrapper{
+  margin-top: 10px;
+  text-align: left;
+  margin-left: 0px;
+}
+.card {
+  padding-bottom: 30px;
+}
+.card img {
+  width: 100%;
+}
+.btn-wrapper button {
+  text-align: center;
+  left: -13px;
+}
+.wrapper {
+  text-align: center;
+  padding-bottom: 34px;
+}
+.creative-img img {
+ margin-left:0px; 
+}
+.creative-text h1 {
+  padding-left: 0px; 
+  text-align: center;
+}
+.amazing-main {
+  position:static;
+  border: none;
+}
+.amazing{
+  padding-bottom: 0px;
+}
+.serivces-wrapper{
+  padding-top: 0px;
+  text-align: center;
+}
+.serivces-button {
+  text-align: center;
+}
+.serivces-icans{
+  position:static;
+}
+.serivces::before {
+  position: absolute;
+  content: "";
+  background-image: url(../image/books.png);
+  top: 432px;
+  height: 441px;
+  left: 0px;
+  width: 100%;
+}
+.team-text {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+.team-text h1{
+  padding: 0px 0px;
+  font-size:25px ;
+}
+.team-text:after {
+  position:static;
+}
+.bio{
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.bio::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 38%;
+  background: linear-gradient(45deg , #b84f0b,#263ebf );
+    top:968px;
+  left: 0px;
+}
+.professional {
+  position: relative;
+  padding-top: 38px;
+}
+.professional:after {
+  width:100%;
+  height: 877px;
+
+}
+.prooo-img{
+  left: 0px;
+}
+.professional::before{
+  width: 100%;
+  left: 0px;
+  top: 438px;
+}
+.touch-text i{
+  margin-right: 0px;
+
+}
+.touch-text{
+  left: 0px;
+}
+}
+@media (min-width:576px) and (max-width:768px) {
+  .fixed-top{
+    position: static;
+    background-color: black;
+  }
+  .navbar-light .navbar-toggler {
+    background-color: white;
+}
+.slider{
+  clip-path: none;
+}
+.top-slider {
+  padding-bottom: 1015px;
+}
+.main-slider {
+ top: 62px;
+ left:0px;
+}
+.slider-wapper{
+  text-align: left;
+  padding-top: 159px;
+  padding-bottom: 38px;
+}
+.slider-wapper h1 {
+   font-size: 38px;
+   text-align: center;
+}
+.slider-wapper h5{
+  text-align: center;
+}
+.slider-wapper h6 {
+   padding: 0px 0px; 
+   text-align: center;
+}
+.main-slider button {
+  color: black;
+  font-size: 12px;
+  margin-left: 350px;
+  margin-top: 84px;
+}
+.card-wrapper{
+  margin-top: 100px;
+  text-align: left;
+  margin-left: 0px;
+}
+.card {
+  padding-bottom: 30px;
+}
+.card img {
+  width: 100%;
+}
+.btn-wrapper button {
+  text-align: center;
+  left: -13px;
+}
+.wrapper {
+  text-align: center;
+  padding-bottom: 34px;
+}
+.creaitve {
+  padding-top: 217px;
+}
+.creative-wrapper {
+  text-align: center;
+}
+.creative-img img {
+ margin-left:0px; 
+}
+.creative-text h1 {
+  padding-left: 0px; 
+  text-align: center;
+  padding-top: 0px;
+}
+.creative-text {
+  padding-top: 28px;
+}
+.creative-text img{
+  width: 6%;
+  left: -33px;
+}
+.amazing-main {
+  position:static;
+  border: none;
+}
+.amazing{
+  padding-bottom: 0px;
+}
+.serivces-wrapper{
+  padding-top: 0px;
+  text-align: center;
+}
+.serivces-button {
+  text-align: center;
+}
+.serivces-icans{
+  top:463px;
+  left:132px;
+  width: 279px;
+
+}
+.serivces::before {
+  position: absolute;
+  content: "";
+  background-image: url(../image/books.png);
+  top: 432px;
+  height: 441px;
+  left: 0px;
+  width: 100%;
+}
+.team-text {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  padding-top: 438px;
+}
+.team-wrapper img {
+  width: 100%;
+  padding: 44px 0px;
+  border-radius: 19px;
+}
+.team-text h1{
+  padding: 0px 0px;
+  font-size:25px ;
+}
+.team-text:after {
+  position:static;
+}
+.bio-wrapper {
+  text-align: center;
+}
+.bio-text{
+  padding-top: 125px;
+}
+.bio{
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.bio::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 38%;
+  background: linear-gradient(45deg , #b84f0b,#263ebf );
+    top:968px;
+  left: 0px;
+}
+.level {
+  text-align: center;
+}
+.professional {
+  position: relative;
+  padding-top: 85px;
+}
+.professional:after {
+  width:100%;
+  height: 877px;
+
+}
+.prooo-img{
+  left: 0px;
+}
+.professional::before{
+  width: 100%;
+  left: 0px;
+  top: 438px;
+}
+.touch-text i{
+  margin-right: 40px;
+
+}
+.touch-text{
+  left: 118px;
+} 
+}
+ @media (min-width:768px) and (max-width:991px) {
+  .fixed-top{
+    position: static;
+    background-color: black;
+  }
+  .navbar-light .navbar-toggler {
+    background-color: white;
+}
+.slider{
+  clip-path: none;
+}
+.top-slider {
+  padding-bottom: 140px;
+}
+.main-slider {
+ top: 62px;
+ left:0px;
+}
+.slider-wapper{
+  text-align:center;
+  padding-top: 159px;
+  padding-bottom: 38px;
+}
+.slider-wapper h1 {
+   font-size: 38px;
+   text-align: center;
+}
+.slider-wapper h5{
+  text-align: center;
+}
+.slider-wapper h6 {
+   padding: 0px 0px; 
+   text-align: center;
+}
+.main-slider button {
+  color: black;
+  font-size: 12px;
+  margin-left:0px;
+  margin-top:0px;
+}
+.card-wrapper{
+  margin-top: 100px;
+  text-align: left;
+  margin-left: 0px;
+}
+.card {
+  padding-bottom: 30px;
+}
+.card img {
+  width: 100%;
+}
+.btn-wrapper button {
+  text-align: center;
+  left: 63px;
+}
+h2.card-title {
+  font-size: 26px;
+}
+.wrapper {
+  text-align: center;
+  padding-bottom: 34px;
+}
+.creaitve {
+  padding-top: 0px;
+}
+.creative-wrapper {
+  text-align: center;
+}
+.creative-img img {
+ margin-left:0px; 
+}
+.creative-text h1 {
+  padding-left: 0px; 
+  text-align: center;
+  padding-top: 0px;
+}
+.creative-text {
+  padding-top: 28px;
+}
+.creative-text img{
+  width: 6%;
+  left: -33px;
+}
+.amazing-main {
+position: absolute;
+border: 1px solid white;
+top: 144px;
+left: 93px;
+}
+.amazing{
+  padding-bottom: 0px;
+}
+.serivces-wrapper{
+  padding-top: 0px;
+  text-align: center;
+}
+.serivces-button {
+  text-align: center;
+}
+.serivces-icans {
+  top:2px;
+  left:352px;
+  width: 279px;
+  position:absolute;
+
+}
+.serivces::before {
+  position: absolute;
+  content: "";
+  background-image: url(../image/books.png);
+  top: 0px;
+  height: 441px;
+  left: 400px;
+  width: 48%;
+}
+.team-text {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  
+}
+.team-wrapper img {
+  width: 100%;
+  padding: 44px 0px;
+  border-radius: 19px;
+}
+.team-text h1{
+  padding: 0px 0px;
+  font-size:25px ;
+}
+.team-text:after {
+  position:absolute;
+  top: 321px;
+  left: 0px;
+}
+.bio-wrapper {
+  text-align: center;
+}
+.bio-text{
+  padding-top: 125px;
+}
+.bio{
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.bio::before {
+  position: absolute;
+  content: "";
+  width: 36%;
+  height: 94%;
+  background: linear-gradient(45deg , #b84f0b,#263ebf );
+    top:37px;
+  left: 490px;
+}
+.bio-icans i {
+  font-size: 30px;
+  background-color: white;
+  border-radius: 222px;
+  margin-right: 13px;
+  padding: 8px 8px;
+  margin-top: 264px;
+  color: black;
+}
+.level {
+  text-align: center;
+}
+.professional {
+  position: relative;
+  padding-top: 85px;
+}
+.professional:after {
+  width:100%;
+  height: 877px;
+  top: 10px;
+
+}
+.prooo-img{
+  left: 0px;
+}
+.professional::before{
+  width: 100%;
+  left: 0px;
+  top: 438px;
+}
+.touch-text i{
+  margin-right: 40px;
+
+}
+.touch-text{
+  left: 118px;
+} 
+} 
